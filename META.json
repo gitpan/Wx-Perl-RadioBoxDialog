@@ -1,49 +1,42 @@
 {
-   "abstract" : "wxSingleChoiceDialog with RadioBox",
+   "abstract" : "unknown",
    "author" : [
-      "Tarek Unger <tu2@gmx.net>"
+      "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.130880",
    "license" : [
-      "artistic_2"
+      "unknown"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
    "name" : "Wx-Perl-RadioBoxDialog",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
          "requires" : {
+            "Test::More" : "0",
             "Wx" : "0"
          }
       }
    },
-   "provides" : {
-      "Wx::Perl::RadioBoxDialog" : {
-         "file" : "lib/Wx/Perl/RadioBoxDialog.pm",
-         "version" : "0.01"
-      }
-   },
    "release_status" : "stable",
-   "resources" : {
-      "license" : [
-         "http://www.perlfoundation.org/artistic_license_2_0"
-      ],
-      "repository" : {
-         "url" : "https://github.com/taunger/Config-Source"
-      }
-   },
-   "version" : "0.01"
+   "version" : "0.02"
 }
